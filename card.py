@@ -12,8 +12,3 @@ class Card:
         self.card_value = random.randint(1,13)
         self.suit = suits[random.randint(0,3)]
 
-
-card = Card()
-card.draw_card()
-
-print(card.card_value)
