@@ -1,6 +1,6 @@
 #director.py
 
-import card.py
+from card.py import Card
 
 class Director:
     
